@@ -1,0 +1,18 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略 IDE 和系统隐藏文件
+.idea/
+.vscode/
+.DS_Store
+
+# 忽略 Gradio 和运行时的临时文件
+.gradio/
+tmp/
+
+# 忽略本地生成的大体积模型权重和图表
+results/
+
+# 忽略 data 文件夹下的所有数据，但保留 AAPL.csv 作为示例
+data/*
